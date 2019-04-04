@@ -91,7 +91,7 @@ func (w *Watch) DirMonitor() {
 							continue
 						}
 					}else {
-						if event.Name[strings.LastIndex(event.Name,"/")+1:] == "新建文件夹" {
+						if event.Name[strings.LastIndex(event.Name,"/")+1:] == "未命名文件夹" {
 							continue
 						}
 					}
